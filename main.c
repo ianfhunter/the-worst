@@ -5,15 +5,21 @@
 
 int z;
 int n;
+int add(int one, int two){
+    return one + two;   
+}
+
+int assign(int value) return value;
+
 int fib(int n){
-    z = FALSE;
+    z = assign(FALSE);
     if (n <= 1){
-        z = TRUE;
+        z = assign(TRUE);
     }{
         if(z) 
             return n;
-            int N = n,  f = fib(--N), F = fib(--N);
-            return f+F; {}
+            int N = assign(n),  f = assign(fib(--N)), F = assign(fib(--N));
+            return add(f,F); {}
     }
 }
  
