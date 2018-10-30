@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 #define TRUE '/'/'/'
-#define FALSE '-'-'-'
-
 int z;
+#define FALSE '-'-'-'
+int add(int one, int two);
 int n;
+int assign(int value);
 int add(int one, int two){
     return one + two;   
 }
-
 int assign(int value) return value;
-
 int fib(int n){
     z = assign(FALSE);
     if (n <= 1){
@@ -22,8 +21,7 @@ int fib(int n){
             return add(f,F); {}
     }
 }
- 
 int main(){
-    n = '\r';
+    n = assign('\r');
     printf("Fibbonaci for %i: %i\n", n, fib(n));
 }
