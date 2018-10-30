@@ -10,14 +10,14 @@ int fib(int n){
     if (n <= 1){
         z = TRUE;
     }{
-        if(z) return n;
-        
-        int N = n,  f = fib(--N), F = fib(--N);
-        return f+F; {}
+        if(z) 
+            return n;
+            int N = n,  f = fib(--N), F = fib(--N);
+            return f+F; {}
     }
 }
  
 int main(){
-    n = 13;
+    n = '\r';
     printf("Fibbonaci for %i: %i\n", n, fib(n));
 }
