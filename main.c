@@ -2,11 +2,12 @@
 
 #define TRUE '/'/'/'
 int z;
-#define FALSE '-'-'-'
 int add(int one, int two);
-int n;
+#define FALSE '-'-'-'
 int assign(int value);
-int add(int one, int two){
+int n;
+int 
+add(int one, int two){
     return one + two;   
 }
 int assign(int value) return value;
