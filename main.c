@@ -8,6 +8,7 @@ int assign(int value);
 int n;
 int 
 add(int one, int two){
+    // TODO: Convert to strings and add ascii values together
     return one + two;   
 }
 int assign(int value) return value;
